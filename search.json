@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "My FAIR Bioconductor",
+    "title": "Bioconductor Community Handbook",
     "section": "",
     "text": "Preface",
     "crumbs": [
@@ -12,9 +12,9 @@
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
-    "title": "My FAIR Bioconductor",
+    "title": "Bioconductor Community Handbook",
     "section": "Welcome",
-    "text": "Welcome\nIn the era of accelerating, AI-assisted, data generation and analysis, the need for open science practices, cross-community standards, and collaboration has never been more critical.",
+    "text": "Welcome\nWelcome to the Bioconductor Community Handbook.\nWhether you are part of the Bioconductor community, work with a neighbouring project, or are discovering these communities for the first time, this handbook is for you. We hope it helps you find your way around shared practices, resources, and conversations, and supports you in contributing to open, inclusive, and collaborative bioinformatics.",
     "crumbs": [
       "Preface"
     ]
@@ -22,131 +22,165 @@
   {
     "objectID": "index.html#what-this-book-is",
     "href": "index.html#what-this-book-is",
-    "title": "My FAIR Bioconductor",
+    "title": "Bioconductor Community Handbook",
     "section": "What this book is",
-    "text": "What this book is\nThis book was initiated during a BioFAIR Collaboration Fest held at The Open University on 15-17 September 2026.\nThis book is a collaborative effort to provide guidance on applying the FAIR principles to Bioconductor assets, ensuring that they are Findable, Accessible, Interoperable, and Reusable, within and beyond the Bioconductor ecosystem.\nIt takes Bioconductor as a case study of community developing open source software, data, and training resources, and provides guidance for users and developers to search for, access, and reuse Bioconductor functionality in other software ecosystems, starting with Galaxy and nf-core as established communities consuming and integrating Bioconductor functionality alongside other bioinformatics software.",
+    "text": "What this book is\nThis book was initiated during a BioFAIR Collaboration Fest held at The Open University on 15-17 September 2026.\nThe handbook began as an effort to capture FAIR (Findable, Accessible, Interoperable, Reusable) practices not covered by existing Bioconductor materials. Community discussions broadened its scope into a handbook bringing together key aspects of community practice in one place.\nThe structure of this handbook is inspired from The Turing Way, with sections dedicated to:\n\nGuide to package development\nGuide to package maintenance\nGuide to package peer review\nGuide to communication\nGuide to FAIR practices",
     "crumbs": [
       "Preface"
     ]
   },
   {
-    "objectID": "index.html#what-this-book-is-not",
-    "href": "index.html#what-this-book-is-not",
-    "title": "My FAIR Bioconductor",
-    "section": "What this book is not",
-    "text": "What this book is not\nThis book does not replace existing documentation and guidance for:\n\nDevelopment, Maintenance, and Peer Review of Bioconductor packages\nTool development and integration into Galaxy\nCreating nf-core modules\n\nRelevant documentation and guidance for these topics is maintained by the respective communities, and this book signposts to these resources where appropriate.",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
-    "objectID": "index.html#who-this-book-is-for",
-    "href": "index.html#who-this-book-is-for",
-    "title": "My FAIR Bioconductor",
-    "section": "Who this book is for",
-    "text": "Who this book is for\nDescribe personas, e.g.\n\nBioconductor user\nGalaxy user\nnf-core user\nBioconductor developer\nGalaxy developer\nnf-core developer\nData science trainer\nData steward\n\n\nGalaxy users\nDo you use Galaxy to analyse data? Do you wish to use a Bioconductor tool not yet available in Galaxy?\n\nWhere can you express your needs?\nWho can you expect on the other side of that conversation?\nWhat options do you have to autonomously access and use Bioconductor tools while waiting for a formal Galaxy tool wrapper?\n\nThis book does not aim to turn you into Bioconductor or Galaxy developers. It aims to provide guidance on how to access and use Bioconductor functionality in Galaxy workflows, and to signpost where to get help and support when needed.",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
-    "objectID": "index.html#what-this-book-contains",
-    "href": "index.html#what-this-book-contains",
-    "title": "My FAIR Bioconductor",
-    "section": "What this book contains",
-    "text": "What this book contains\nDescribe what this book offers to the personas listed above, e.g.\n\nSignposting resources\n\nWrapping Bioconductor functionality as Galaxy tools.\nWrapping Bioconductor functionality as nf-core modules.\nIntegrating Bioconductor functionality in Galaxy workflows.\nIntegrating Bioconductor functionality in nf-core pipelines.\n\nDefinitions\n\nWorking definitions of Bioconductor, Galaxy, nf-core, WorkflowHub, and other relevant terms in relation to each other, avoiding jargon and implied knowledge to make the book inclusive and accessible to a wide audience.\n\nGuidance\n\nSuggested roadmap for planning and wrapping Bioconductor functionality in Galaxy tools and workflows, and nf-core modules and pipelines.\nProcesses, resources, and checklists to produce FAIR Bioconductor tool wrappers\nPreferred file types for disk-based storage of R object and interoperability with other programming languages and software ecosystems.",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
-    "objectID": "definitions.html",
-    "href": "definitions.html",
-    "title": "1  Definitions",
+    "objectID": "guide_package_development.html",
+    "href": "guide_package_development.html",
+    "title": "1  Guide to package development",
     "section": "",
-    "text": "1.1 Bioconductor\nShared definitions and language are essential for effective communication and collaboration across communities, and for ensuring that the FAIR principles are applied consistently.\nThe following definitions aim to redefine key terms in a way that is accessible to a wide audience, including those who may not be familiar with the specific communities or technologies involved.\nBioconductor is …",
+    "text": "1.1 Overview\nThis guide will cover practices and resources for developing Bioconductor packages.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Definitions</span>"
+      "Guide to package development",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Guide to package development</span>"
     ]
   },
   {
-    "objectID": "definitions.html#galaxy",
-    "href": "definitions.html#galaxy",
-    "title": "1  Definitions",
-    "section": "1.2 Galaxy",
-    "text": "1.2 Galaxy\nThe Galaxy project is …",
+    "objectID": "guide_package_maintenance.html",
+    "href": "guide_package_maintenance.html",
+    "title": "2  Guide to package maintenance",
+    "section": "",
+    "text": "2.1 Overview\nThis guide will cover practices and resources for maintaining Bioconductor packages over time.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Definitions</span>"
+      "Guide to package maintenance",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Guide to package maintenance</span>"
     ]
   },
   {
-    "objectID": "definitions.html#nextflow",
-    "href": "definitions.html#nextflow",
-    "title": "1  Definitions",
-    "section": "1.3 Nextflow",
-    "text": "1.3 Nextflow\nNextflow is …",
+    "objectID": "guide_package_peer_review.html",
+    "href": "guide_package_peer_review.html",
+    "title": "3  Guide to package peer review",
+    "section": "",
+    "text": "3.1 Overview\nThis guide will cover practices and resources for the peer review of Bioconductor packages.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Definitions</span>"
+      "Guide to package peer review",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Guide to package peer review</span>"
     ]
   },
   {
-    "objectID": "definitions.html#nf-core",
-    "href": "definitions.html#nf-core",
-    "title": "1  Definitions",
-    "section": "1.4 nf-core",
-    "text": "1.4 nf-core\nnf-core is …",
+    "objectID": "guide_communication.html",
+    "href": "guide_communication.html",
+    "title": "4  Guide to communication",
+    "section": "",
+    "text": "4.1 Overview\nThis guide will provide practical advice for communicating within the Bioconductor community and with other communities.\nIt will define shared language, identify where to ask questions and share needs, and describe how users, developers, trainers, and maintainers can collaborate effectively within and beyond Bioconductor.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Definitions</span>"
+      "Guide to communication",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Guide to communication</span>"
+    ]
+  },
+  {
+    "objectID": "communicating_across_communities.html",
+    "href": "communicating_across_communities.html",
+    "title": "5  Communicating across communities",
+    "section": "",
+    "text": "This section will introduce communication practices, resources, and pathways for coordinating work within the community and building effective relationships with other projects and communities.",
+    "crumbs": [
+      "Guide to communication",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Communicating across communities</span>"
+    ]
+  },
+  {
+    "objectID": "guide_fair.html",
+    "href": "guide_fair.html",
+    "title": "6  Guide to FAIR",
+    "section": "",
+    "text": "6.1 Overview\nAs part of the Bioconductor community, we develop and maintain open-source software, data, and training resources. By applying the FAIR principles, this guide supports users and developers in making those resources easier to discover, access, integrate, and reuse within and beyond the Bioconductor ecosystem. The following sections describe processes, resources, and checklists for producing FAIR Bioconductor tools, wrappers and workflows, including integrations with other software ecosystems.",
+    "crumbs": [
+      "Guide to FAIR",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Guide to FAIR</span>"
+    ]
+  },
+  {
+    "objectID": "interoperable_file_types.html",
+    "href": "interoperable_file_types.html",
+    "title": "7  Interoperable file types",
+    "section": "",
+    "text": "Preferred file types for disk-based storage of R objects and interoperability with other programming languages and software ecosystems will be documented here.",
+    "crumbs": [
+      "Guide to FAIR",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Interoperable file types</span>"
     ]
   },
   {
     "objectID": "bioc_in_galaxy.html",
     "href": "bioc_in_galaxy.html",
-    "title": "2  Bioconductor in Galaxy",
+    "title": "8  Bioconductor in Galaxy",
     "section": "",
-    "text": "2.1 Overview\nThe following sections contains prompts for specific guidance on searching for Bioconductor tools in Galaxy, identifying gaps, and specific recommendations for adding interoperable Bioconductor tooling in Galaxy.",
+    "text": "8.1 Overview\nThe following sections currently contains placeholder prompts for specific guidance on searching for Bioconductor tools in Galaxy, identifying gaps, and specific recommendations for adding interoperable Bioconductor tooling in Galaxy.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
+      "Guide to FAIR",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
     ]
   },
   {
     "objectID": "bioc_in_galaxy.html#searching-for-bioconductor-tools-on-galaxy",
     "href": "bioc_in_galaxy.html#searching-for-bioconductor-tools-on-galaxy",
-    "title": "2  Bioconductor in Galaxy",
-    "section": "2.2 Searching for Bioconductor tools on Galaxy",
-    "text": "2.2 Searching for Bioconductor tools on Galaxy\nHow does one find Bioconductor tools on Galaxy? What are the search terms and strategies that can be used to locate Bioconductor functionality within the Galaxy tool shed?",
+    "title": "8  Bioconductor in Galaxy",
+    "section": "8.2 Searching for Bioconductor tools on Galaxy",
+    "text": "8.2 Searching for Bioconductor tools on Galaxy\nHow does one find Bioconductor tools on Galaxy? What are the search terms and strategies that can be used to locate Bioconductor functionality within the Galaxy tool shed?",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
+      "Guide to FAIR",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
     ]
   },
   {
     "objectID": "bioc_in_galaxy.html#galaxy-file-types-for-bioconductor-objects",
     "href": "bioc_in_galaxy.html#galaxy-file-types-for-bioconductor-objects",
-    "title": "2  Bioconductor in Galaxy",
-    "section": "2.3 Galaxy file types for Bioconductor objects",
-    "text": "2.3 Galaxy file types for Bioconductor objects\nHow are R objects stored on disk in Galaxy? What are the preferred file types for interoperability with other programming languages and software ecosystems?\nFor example, this GitHub issue has been discussing insecure aspects of RData files. While those are the default file type for R objects, they are not interoperable with other programming languages and software ecosystems. Instead, the loom file format has gained popularity as a preferred file type for disk-based storage of R objects, and is interoperable with other programming languages and software ecosystems",
+    "title": "8  Bioconductor in Galaxy",
+    "section": "8.3 Galaxy file types for Bioconductor objects",
+    "text": "8.3 Galaxy file types for Bioconductor objects\nHow are R objects stored on disk in Galaxy? What are the preferred file types for interoperability with other programming languages and software ecosystems?\nFor example, this GitHub issue has been discussing insecure aspects of RData files. While those are the default file type for R objects, they are not interoperable with other programming languages and software ecosystems. Instead, the loom file format has gained popularity as a preferred file type for disk-based storage of R objects, and is interoperable with other programming languages and software ecosystems",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
+      "Guide to FAIR",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
+    ]
+  },
+  {
+    "objectID": "bioc_in_galaxy.html#resources",
+    "href": "bioc_in_galaxy.html#resources",
+    "title": "8  Bioconductor in Galaxy",
+    "section": "8.4 Resources",
+    "text": "8.4 Resources\n\nTool development and integration into Galaxy",
+    "crumbs": [
+      "Guide to FAIR",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
     ]
   },
   {
     "objectID": "bioc_in_nfcore.html",
     "href": "bioc_in_nfcore.html",
-    "title": "3  Bioconductor in nf-core",
+    "title": "9  Bioconductor in nf-core",
     "section": "",
-    "text": "3.1 Overview\nThe following sections contains prompts for specific guidance on searching for Bioconductor tools in nf-core, identifying gaps, and specific recommendations for adding interoperable Bioconductor tooling in Galaxy.",
+    "text": "9.1 Overview\nThe following sections currently contains placeholder prompts for specific guidance on searching for Bioconductor tools in nf-core, identifying gaps, and specific recommendations for adding interoperable Bioconductor tooling in Galaxy.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bioconductor in nf-core</span>"
+      "Guide to FAIR",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Bioconductor in nf-core</span>"
     ]
   },
   {
     "objectID": "bioc_in_nfcore.html#searching-for-bioconductor-tools-in-nf-core",
     "href": "bioc_in_nfcore.html#searching-for-bioconductor-tools-in-nf-core",
-    "title": "3  Bioconductor in nf-core",
-    "section": "3.2 Searching for Bioconductor tools in nf-core",
-    "text": "3.2 Searching for Bioconductor tools in nf-core\nHow does one find Bioconductor tools in nf-core? What are the search terms and strategies that can be used to locate Bioconductor functionality within the nf-core modules?",
+    "title": "9  Bioconductor in nf-core",
+    "section": "9.2 Searching for Bioconductor tools in nf-core",
+    "text": "9.2 Searching for Bioconductor tools in nf-core\nHow does one find Bioconductor tools in nf-core? What are the search terms and strategies that can be used to locate Bioconductor functionality within the nf-core modules?",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bioconductor in nf-core</span>"
+      "Guide to FAIR",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Bioconductor in nf-core</span>"
+    ]
+  },
+  {
+    "objectID": "bioc_in_nfcore.html#resources",
+    "href": "bioc_in_nfcore.html#resources",
+    "title": "9  Bioconductor in nf-core",
+    "section": "9.3 Resources",
+    "text": "9.3 Resources\n\nCreating nf-core modules",
+    "crumbs": [
+      "Guide to FAIR",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Bioconductor in nf-core</span>"
     ]
   },
   {
@@ -154,9 +188,64 @@
     "href": "contributors.html",
     "title": "Contributors",
     "section": "",
-    "text": "The table below lists the names (alphabetical order: last name, first name), affiliations, and ORCID identifiers of each contributor.\n\n\n\nName\nAffiliation\nORCID\n\n\n\n\nMarisa Loach\nThe Open University\n0000-0001-6979-6930\n\n\nKevin Rue\nOxford University\n0000-0003-3899-3872",
+    "text": "The table below lists the names (alphabetical order: last name, first name), affiliations, and ORCID identifiers of each contributor.\n\n\n\nName\nAffiliation\nORCID\n\n\n\n\nKevin Rue\nOxford University\n0000-0003-3899-3872",
     "crumbs": [
       "Contributors"
+    ]
+  },
+  {
+    "objectID": "definitions.html",
+    "href": "definitions.html",
+    "title": "Appendix A — Definitions",
+    "section": "",
+    "text": "A.1 Bioconductor\nShared definitions and language are essential for effective communication and collaboration across communities, and for ensuring that the FAIR principles are applied consistently.\nThe following definitions aim to redefine key terms in a way that is accessible to a wide audience, including those who may not be familiar with the specific communities or technologies involved.\nBioconductor is …",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "definitions.html#fair",
+    "href": "definitions.html#fair",
+    "title": "Appendix A — Definitions",
+    "section": "A.2 FAIR",
+    "text": "A.2 FAIR\nFAIR is …",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "definitions.html#galaxy",
+    "href": "definitions.html#galaxy",
+    "title": "Appendix A — Definitions",
+    "section": "A.3 Galaxy",
+    "text": "A.3 Galaxy\nThe Galaxy project is …",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "definitions.html#nextflow",
+    "href": "definitions.html#nextflow",
+    "title": "Appendix A — Definitions",
+    "section": "A.4 Nextflow",
+    "text": "A.4 Nextflow\nNextflow is …",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "definitions.html#nf-core",
+    "href": "definitions.html#nf-core",
+    "title": "Appendix A — Definitions",
+    "section": "A.5 nf-core",
+    "text": "A.5 nf-core\nnf-core is …",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Definitions</span>"
     ]
   }
 ]
