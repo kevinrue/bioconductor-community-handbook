@@ -1,0 +1,3 @@
+# Guide to package maintenance
+
+This guide will cover practices and resources for maintaining Bioconductor packages over time.

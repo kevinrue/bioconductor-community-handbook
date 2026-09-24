@@ -1,0 +1,3 @@
+# Guide to package development
+
+This guide will cover practices and resources for developing Bioconductor packages.

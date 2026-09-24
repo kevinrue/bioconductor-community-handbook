@@ -1,0 +1,11 @@
+# Guide to communication
+
+## Overview
+
+This guide will provide practical advice for communicating within the Bioconductor community and with other communities.
+
+It will define shared language, identify where to ask questions and share needs, and describe how users, developers, trainers, and maintainers can collaborate effectively within and beyond Bioconductor.
+
+## Communicating across communities
+
+This section will introduce communication practices, resources, and pathways for coordinating work within the community and building effective relationships with other projects and communities.

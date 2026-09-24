@@ -1,0 +1,24 @@
+# Guide to FAIR
+
+## Overview
+
+This guide provides practical guidance on applying the [FAIR principles](https://www.go-fair.org/fair-principles/) to [Bioconductor](https://www.bioconductor.org/) materials. It considers how software, data, and training resources can be Findable, Accessible, Interoperable, and Reusable within and beyond the Bioconductor ecosystem.
+
+As part of the Bioconductor community, we develop and maintain open-source software, data, and training resources. This guide supports users and developers in making those resources easier to discover, access, integrate, and reuse within and beyond the Bioconductor ecosystem.
+
+## FAIR Bioconductor functionality
+
+The following sections will develop processes, resources, and checklists for producing FAIR Bioconductor tool wrappers and workflows, including integrations with Galaxy and nf-core.
+
+## What this guide is not
+
+This guide does not replace the documentation and guidance maintained by the Galaxy and nf-core communities for:
+
+- [Tool development and integration into Galaxy](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-integration/slides-plain.html)
+- [Creating nf-core modules](https://nf-co.re/docs/nf-core-tools/cli/modules/create)
+
+It signposts to these resources where appropriate while focusing on the FAIR aspects of integrating Bioconductor functionality.
+
+## Interoperable file types
+
+Preferred file types for disk-based storage of R objects and interoperability with other programming languages and software ecosystems will be documented here.

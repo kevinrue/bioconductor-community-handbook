@@ -1,0 +1,3 @@
+# Guide to package peer review
+
+This guide will cover practices and resources for the peer review of Bioconductor packages.

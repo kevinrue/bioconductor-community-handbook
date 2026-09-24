@@ -2,70 +2,20 @@
 
 ## Welcome
 
-<!-- In the era of accelerating, AI-assisted, data generation and analysis, the need for open science practices, cross-community standards, and collaboration has never been more critical. -->
+Welcome to the Bioconductor Community Handbook.
+
+Whether you are part of the Bioconductor community, work with a neighbouring project, or are discovering these communities for the first time, this handbook is for you. We hope it helps you find your way around shared practices, resources, and conversations, and supports you in contributing to open, inclusive, and collaborative bioinformatics.
 
 ## What this book is
 
 This book was initiated during a BioFAIR Collaboration Fest held at The Open University on 15-17 September 2026.
 
-Initially aimed at capturing FAIR (Findable, Accessible, Interoperable, Reusable) practices not yet captured by other Bioconductor materials, discussions led it to become a wider-reaching community handbook unifying that combined knowledge under one common roof.
+The handbook began as an effort to capture FAIR (Findable, Accessible, Interoperable, Reusable) practices not covered by existing Bioconductor materials. Community discussions broadened its scope into a handbook bringing together key aspects of community practice in one place.
 
 The structure of this handbook is inspired from [The Turing Way](https://book.the-turing-way.org/), with sections dedicated to:
 
-- Package development, maintenance, and peer-review
-- Communication within the community and toward other communities
-- FAIR practices
-
-<!-- This book is a collaborative effort to provide guidance on applying the [FAIR principles](https://www.go-fair.org/fair-principles/) to [Bioconductor](https://www.bioconductor.org/) assets, ensuring that they are Findable, Accessible, Interoperable, and Reusable, within and beyond the Bioconductor ecosystem.
-
-It takes Bioconductor as a case study of community developing open source software, data, and training resources, and provides guidance for users and developers to search for, access, and reuse Bioconductor functionality in other software ecosystems, starting with [Galaxy](https://galaxyproject.org/) and [nf-core](https://nf-co.re/) as established communities consuming and integrating Bioconductor functionality alongside other bioinformatics software. -->
-
-## What this book is not
-
-This book does not replace existing documentation and guidance for:
-
-- [Development, Maintenance, and Peer Review of Bioconductor packages](https://contributions.bioconductor.org/)
-- [Tool development and integration into Galaxy](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-integration/slides-plain.html)
-- [Creating nf-core modules](https://nf-co.re/docs/nf-core-tools/cli/modules/create)
-
-Relevant documentation and guidance for these topics is maintained by the respective communities, and this book signposts to these resources where appropriate.
-
-## Who this book is for
-
-Describe personas, e.g.
-
-- Bioconductor user
-- Galaxy user
-- nf-core user
-- Bioconductor developer
-- Galaxy developer
-- nf-core developer
-- Data science trainer
-- Data steward
-
-### Galaxy users
-
-Do you use Galaxy to analyse data? Do you wish to use a Bioconductor tool not yet available in Galaxy?
-
-* Where can you express your needs?
-* Who can you expect on the other side of that conversation?
-* What options do you have to autonomously access and use Bioconductor tools while waiting for a formal Galaxy tool wrapper?
-
-This book does not aim to turn you into Bioconductor or Galaxy developers.
-It aims to provide guidance on how to access and use Bioconductor functionality in Galaxy workflows, and to signpost where to get help and support when needed.
-
-## What this book contains
-
-Describe what this book offers to the personas listed above, e.g.
-
-- Signposting resources
-  - Wrapping Bioconductor functionality as Galaxy tools.
-  - Wrapping Bioconductor functionality as nf-core modules.
-  - Integrating Bioconductor functionality in Galaxy workflows.
-  - Integrating Bioconductor functionality in nf-core pipelines.
-- Definitions
-  - Working definitions of Bioconductor, Galaxy, nf-core, WorkflowHub, and other relevant terms in relation to each other, avoiding jargon and implied knowledge to make the book inclusive and accessible to a wide audience.
-- Guidance
-  - Suggested roadmap for planning and wrapping Bioconductor functionality in Galaxy tools and workflows, and nf-core modules and pipelines.
-  - Processes, resources, and checklists to produce FAIR Bioconductor tool wrappers
-  - Preferred file types for disk-based storage of R object and interoperability with other programming languages and software ecosystems.
+- [Guide to package development](guide_package_development.qmd)
+- [Guide to package maintenance](guide_package_maintenance.qmd)
+- [Guide to package peer review](guide_package_peer_review.qmd)
+- [Guide to communication](guide_communication.qmd)
+- [Guide to FAIR practices](guide_fair.qmd)
