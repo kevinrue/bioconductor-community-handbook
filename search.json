@@ -24,7 +24,7 @@
     "href": "index.html#what-this-book-is",
     "title": "Bioconductor Community Handbook",
     "section": "What this book is",
-    "text": "What this book is\nThis book was initiated during a BioFAIR Collaboration Fest held at The Open University on 15-17 September 2026.\nThe handbook began as an effort to capture FAIR (Findable, Accessible, Interoperable, Reusable) practices not covered by existing Bioconductor materials. Community discussions broadened its scope into a handbook bringing together key aspects of community practice in one place.\nThe structure of this handbook is inspired from The Turing Way, with sections dedicated to:\n\nGuide to package development\nGuide to package maintenance\nGuide to package peer review\nGuide to communication\nGuide to FAIR practices",
+    "text": "What this book is\nThis book was initiated during a BioFAIR Collaboration Fest held at The Open University on 15-17 September 2026.\nThe handbook began as an effort to capture FAIR (Findable, Accessible, Interoperable, Reusable) practices not covered by existing Bioconductor materials. Cross-community discussions broadened its scope into a handbook bringing together key aspects of community practice in one place.\nThe structure of this handbook is inspired from The Turing Way, with sections dedicated to:\n\nGuide to package development\nGuide to package maintenance\nGuide to package peer review\nGuide to communication\nGuide to FAIR practices",
     "crumbs": [
       "Preface"
     ]
@@ -89,7 +89,7 @@
     "href": "guide_fair.html",
     "title": "6  Guide to FAIR",
     "section": "",
-    "text": "6.1 Overview\nAs part of the Bioconductor community, we develop and maintain open-source software, data, and training resources. By applying the FAIR principles, this guide supports users and developers in making those resources easier to discover, access, integrate, and reuse within and beyond the Bioconductor ecosystem. The following sections describe processes, resources, and checklists for producing FAIR Bioconductor tools, wrappers and workflows, including integrations with other software ecosystems.",
+    "text": "6.1 Overview\nAs part of the Bioconductor community, we develop and maintain open-source software, data, and training resources. By applying the FAIR principles – Findable, Accessible, Interoperable, Reusable – this guide will cover practices and resources supporting users and developers in making those resources easier to discover, access, integrate, and reuse within and beyond the Bioconductor ecosystem. The following sections describe processes, resources, and checklists for producing FAIR Bioconductor tools, wrappers and workflows, including integrations with other software ecosystems.",
     "crumbs": [
       "Guide to FAIR",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Guide to FAIR</span>"
@@ -122,7 +122,7 @@
     "href": "bioc_in_galaxy.html#searching-for-bioconductor-tools-on-galaxy",
     "title": "8  Bioconductor in Galaxy",
     "section": "8.2 Searching for Bioconductor tools on Galaxy",
-    "text": "8.2 Searching for Bioconductor tools on Galaxy\nHow does one find Bioconductor tools on Galaxy? What are the search terms and strategies that can be used to locate Bioconductor functionality within the Galaxy tool shed?",
+    "text": "8.2 Searching for Bioconductor tools on Galaxy\nAre Bioconductor tools findable in Galaxy? How does one find Bioconductor tools on Galaxy? What are the search terms and strategies that can be used to locate Bioconductor functionality within the Galaxy tool shed?",
     "crumbs": [
       "Guide to FAIR",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
@@ -166,7 +166,7 @@
     "href": "bioc_in_nfcore.html#searching-for-bioconductor-tools-in-nf-core",
     "title": "9  Bioconductor in nf-core",
     "section": "9.2 Searching for Bioconductor tools in nf-core",
-    "text": "9.2 Searching for Bioconductor tools in nf-core\nHow does one find Bioconductor tools in nf-core? What are the search terms and strategies that can be used to locate Bioconductor functionality within the nf-core modules?",
+    "text": "9.2 Searching for Bioconductor tools in nf-core\nAre Bioconductor tools findable in nf-core? How does one find Bioconductor tools in nf-core? What are the search terms and strategies that can be used to locate Bioconductor functionality within the nf-core modules?",
     "crumbs": [
       "Guide to FAIR",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Bioconductor in nf-core</span>"
