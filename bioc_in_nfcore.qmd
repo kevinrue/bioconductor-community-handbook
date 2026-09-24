@@ -2,8 +2,12 @@
 
 ## Overview
 
-The following sections contains prompts for specific guidance on searching for Bioconductor tools in nf-core, identifying gaps, and specific recommendations for adding interoperable Bioconductor tooling in Galaxy.
+The following sections currently contains placeholder prompts for specific guidance on searching for Bioconductor tools in nf-core, identifying gaps, and specific recommendations for adding interoperable Bioconductor tooling in Galaxy.
 
 ## Searching for Bioconductor tools in nf-core
 
 *How does one find Bioconductor tools in nf-core? What are the search terms and strategies that can be used to locate Bioconductor functionality within the [nf-core modules](https://nf-co.re/modules/)?*
+
+## Resources
+
+- [Creating nf-core modules](https://nf-co.re/docs/nf-core-tools/cli/modules/create)

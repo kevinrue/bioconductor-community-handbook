@@ -1,0 +1,3 @@
+# Interoperable file types
+
+Preferred file types for disk-based storage of R objects and interoperability with other programming languages and software ecosystems will be documented here.

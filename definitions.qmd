@@ -8,6 +8,10 @@ The following definitions aim to redefine key terms in a way that is accessible 
 
 Bioconductor is ...
 
+## FAIR
+
+FAIR is ...
+
 ## Galaxy
 
 The Galaxy project is ...
