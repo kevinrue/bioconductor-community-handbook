@@ -6,7 +6,7 @@ The following sections currently contains placeholder prompts for specific guida
 
 ## Searching for Bioconductor tools on Galaxy
 
-*How does one find Bioconductor tools on Galaxy? What are the search terms and strategies that can be used to locate Bioconductor functionality within the [Galaxy tool shed](https://galaxyproject.org/toolshed/)?*
+*Are Bioconductor tools findable in Galaxy? How does one find Bioconductor tools on Galaxy? What are the search terms and strategies that can be used to locate Bioconductor functionality within the [Galaxy tool shed](https://galaxyproject.org/toolshed/)?*
 
 ## Galaxy file types for Bioconductor objects
 

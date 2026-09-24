@@ -4,13 +4,15 @@
 
 Welcome to the Bioconductor Community Handbook.
 
-Whether you are part of the Bioconductor community, work with a neighbouring project, or are discovering these communities for the first time, this handbook is for you. We hope it helps you find your way around shared practices, resources, and conversations, and supports you in contributing to open, inclusive, and collaborative bioinformatics.
+Whether you are part of the Bioconductor community, work with a neighbouring project, or are discovering these communities for the first time, this handbook is for you.
+We hope it helps you find your way around shared practices, resources, and conversations, and supports you in contributing to open, inclusive, and collaborative bioinformatics.
 
 ## What this book is
 
 This book was initiated during a BioFAIR Collaboration Fest held at The Open University on 15-17 September 2026.
 
-The handbook began as an effort to capture FAIR (Findable, Accessible, Interoperable, Reusable) practices not covered by existing Bioconductor materials. Community discussions broadened its scope into a handbook bringing together key aspects of community practice in one place.
+The handbook began as an effort to capture FAIR (Findable, Accessible, Interoperable, Reusable) practices not covered by existing Bioconductor materials.
+Cross-community discussions broadened its scope into a handbook bringing together key aspects of community practice in one place.
 
 The structure of this handbook is inspired from [The Turing Way](https://book.the-turing-way.org/), with sections dedicated to:
 
