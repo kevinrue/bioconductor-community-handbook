@@ -28,9 +28,11 @@ book:
     - part: "Guide to communication"
       chapters:
         - guide_communication.qmd
+        - communicating_across_communities.qmd
     - part: "Guide to FAIR"
       chapters:
         - guide_fair.qmd
+        - interoperable_file_types.qmd
         - bioc_in_galaxy.qmd
         - bioc_in_nfcore.qmd
     - contributors.qmd
