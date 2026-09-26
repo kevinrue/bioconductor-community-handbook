@@ -14,173 +14,185 @@
     "href": "index.html#welcome",
     "title": "Bioconductor Community Handbook",
     "section": "Welcome",
-    "text": "Welcome\nWelcome to the Bioconductor Community Handbook.\nWhether you are part of the Bioconductor community, work with a neighbouring project, or are discovering these communities for the first time, this handbook is for you. We hope it helps you find your way around shared practices, resources, and conversations, and supports you in contributing to open, inclusive, and collaborative bioinformatics.",
+    "text": "Welcome\nWelcome to the Bioconductor Community Handbook.\nThis handbook is a collaborative effort to capture and share knowledge about the Bioconductor community, its practices, and its resources. It is intended for anyone interested in contributing to or learning from the Bioconductor community, whether you are a seasoned contributor or a newcomer.\nThis book was initiated during a BioFAIR Collaboration Fest held at The Open University on 15-17 September 2026. It began as an effort to capture FAIR (Findable, Accessible, Interoperable, Reusable) practices not covered by existing Bioconductor materials, but discussions broadened its scope into a handbook bringing together key aspects of community practice in one place.\nThe structure of this handbook is inspired from The Turing Way, referring to it for more general guidance on open source software development, data science, and reproducible research. It is intended to unify this combined knowledge under one common roof while signposting to more specialised guidance maintained by Bioconductor and other communities.",
     "crumbs": [
       "Preface"
     ]
   },
   {
-    "objectID": "index.html#what-this-book-is",
-    "href": "index.html#what-this-book-is",
-    "title": "Bioconductor Community Handbook",
-    "section": "What this book is",
-    "text": "What this book is\nThis book was initiated during a BioFAIR Collaboration Fest held at The Open University on 15-17 September 2026.\nThe handbook began as an effort to capture FAIR (Findable, Accessible, Interoperable, Reusable) practices not covered by existing Bioconductor materials. Cross-community discussions broadened its scope into a handbook bringing together key aspects of community practice in one place.\nThe structure of this handbook is inspired from The Turing Way, with sections dedicated to:\n\nGuide to package development\nGuide to package maintenance\nGuide to package peer review\nGuide to communication\nGuide to FAIR practices",
+    "objectID": "guide_software.html",
+    "href": "guide_software.html",
+    "title": "Guide for Software",
+    "section": "",
+    "text": "This guide will cover practices and resources for the design, maintenance, and peer review of Bioconductor software.\nThose practices and resources are currently described in the bookdown book Bioconductor Packages: Development, Maintenance, and Peer Review.",
     "crumbs": [
-      "Preface"
+      "Guide for Software",
+      "Guide for Software"
     ]
   },
   {
-    "objectID": "guide_package_development.html",
-    "href": "guide_package_development.html",
-    "title": "1  Guide to package development",
+    "objectID": "guides/software/package_development.html",
+    "href": "guides/software/package_development.html",
+    "title": "Package development",
     "section": "",
-    "text": "1.1 Overview\nThis guide will cover practices and resources for developing Bioconductor packages.",
+    "text": "This section will cover practices and resources for developing Bioconductor packages.\nThose practices and resources are currently described in the bookdown book Bioconductor Packages: Development, Maintenance, and Peer Review.",
     "crumbs": [
-      "Guide to package development",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Guide to package development</span>"
+      "Guide for Software",
+      "Package development"
     ]
   },
   {
-    "objectID": "guide_package_maintenance.html",
-    "href": "guide_package_maintenance.html",
-    "title": "2  Guide to package maintenance",
+    "objectID": "guides/software/package_maintenance.html",
+    "href": "guides/software/package_maintenance.html",
+    "title": "Package maintenance",
     "section": "",
-    "text": "2.1 Overview\nThis guide will cover practices and resources for maintaining Bioconductor packages over time.",
+    "text": "This section will cover practices and resources for maintaining Bioconductor packages over time.\nThose practices and resources are currently described in the bookdown book Bioconductor Packages: Development, Maintenance, and Peer Review.",
     "crumbs": [
-      "Guide to package maintenance",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Guide to package maintenance</span>"
+      "Guide for Software",
+      "Package maintenance"
     ]
   },
   {
-    "objectID": "guide_package_peer_review.html",
-    "href": "guide_package_peer_review.html",
-    "title": "3  Guide to package peer review",
+    "objectID": "guides/software/package_peer_review.html",
+    "href": "guides/software/package_peer_review.html",
+    "title": "Package peer review",
     "section": "",
-    "text": "3.1 Overview\nThis guide will cover practices and resources for the peer review of Bioconductor packages.",
+    "text": "This section will cover practices and resources for the peer review of Bioconductor packages.\nThose practices and resources are currently described in the bookdown book Bioconductor Packages: Development, Maintenance, and Peer Review.",
     "crumbs": [
-      "Guide to package peer review",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Guide to package peer review</span>"
+      "Guide for Software",
+      "Package peer review"
     ]
   },
   {
     "objectID": "guide_communication.html",
     "href": "guide_communication.html",
-    "title": "4  Guide to communication",
+    "title": "Guide for Communication",
     "section": "",
-    "text": "4.1 Overview\nThis guide will provide practical advice for communicating within the Bioconductor community and with other communities.\nIt will define shared language, identify where to ask questions and share needs, and describe how users, developers, trainers, and maintainers can collaborate effectively within and beyond Bioconductor.",
+    "text": "This guide will provide practical advice for communicating within the Bioconductor community and with other communities.\nIt will define shared language, identify where to ask questions and share needs, and describe how users, developers, trainers, and maintainers can collaborate effectively within and beyond Bioconductor.",
     "crumbs": [
-      "Guide to communication",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Guide to communication</span>"
+      "Guide for Communication",
+      "Guide for Communication"
     ]
   },
   {
-    "objectID": "communicating_across_communities.html",
-    "href": "communicating_across_communities.html",
-    "title": "5  Communicating across communities",
+    "objectID": "guides/communication/communicating_with_the_community.html",
+    "href": "guides/communication/communicating_with_the_community.html",
+    "title": "Communicating with the community",
     "section": "",
-    "text": "This section will introduce communication practices, resources, and pathways for coordinating work within the community and building effective relationships with other projects and communities.",
+    "text": "This section will introduce communication practices, resources, and pathways for coordinating work and building effective relationships with other community members.",
     "crumbs": [
-      "Guide to communication",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Communicating across communities</span>"
+      "Guide for Communication",
+      "Communicating with the community"
+    ]
+  },
+  {
+    "objectID": "guides/communication/communicating_with_other_communities.html",
+    "href": "guides/communication/communicating_with_other_communities.html",
+    "title": "Communicating with other communities",
+    "section": "",
+    "text": "This section will introduce communication practices, resources, and pathways for coordinating work and building effective relationships with other projects and communities.",
+    "crumbs": [
+      "Guide for Communication",
+      "Communicating with other communities"
     ]
   },
   {
     "objectID": "guide_fair.html",
     "href": "guide_fair.html",
-    "title": "6  Guide to FAIR",
+    "title": "Guide for FAIR Practices",
     "section": "",
-    "text": "6.1 Overview\nAs part of the Bioconductor community, we develop and maintain open-source software, data, and training resources. By applying the FAIR principles – Findable, Accessible, Interoperable, Reusable – this guide will cover practices and resources supporting users and developers in making those resources easier to discover, access, integrate, and reuse within and beyond the Bioconductor ecosystem. The following sections describe processes, resources, and checklists for producing FAIR Bioconductor tools, wrappers and workflows, including integrations with other software ecosystems.",
+    "text": "As part of the Bioconductor community, we develop and maintain open-source software, data, and training resources. By applying the FAIR principles – Findable, Accessible, Interoperable, Reusable – this guide will cover practices and resources supporting users and developers in making those resources easier to discover, access, integrate, and reuse within and beyond the Bioconductor ecosystem. The following sections describe processes, resources, and checklists for producing FAIR Bioconductor tools, wrappers and workflows, including integrations with other software ecosystems.",
     "crumbs": [
-      "Guide to FAIR",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Guide to FAIR</span>"
+      "Guide for FAIR Practices",
+      "Guide for FAIR Practices"
     ]
   },
   {
-    "objectID": "interoperable_file_types.html",
-    "href": "interoperable_file_types.html",
-    "title": "7  Interoperable file types",
+    "objectID": "guides/fair/interoperable_file_types.html",
+    "href": "guides/fair/interoperable_file_types.html",
+    "title": "1  Interoperable file types",
     "section": "",
     "text": "Preferred file types for disk-based storage of R objects and interoperability with other programming languages and software ecosystems will be documented here.",
     "crumbs": [
-      "Guide to FAIR",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Interoperable file types</span>"
+      "Guide for FAIR Practices",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Interoperable file types</span>"
     ]
   },
   {
-    "objectID": "bioc_in_galaxy.html",
-    "href": "bioc_in_galaxy.html",
-    "title": "8  Bioconductor in Galaxy",
+    "objectID": "guides/fair/bioc_in_galaxy.html",
+    "href": "guides/fair/bioc_in_galaxy.html",
+    "title": "2  Bioconductor in Galaxy",
     "section": "",
-    "text": "8.1 Overview\nThe following sections currently contains placeholder prompts for specific guidance on searching for Bioconductor tools in Galaxy, identifying gaps, and specific recommendations for adding interoperable Bioconductor tooling in Galaxy.",
+    "text": "2.1 Overview\nThe following sections currently contains placeholder prompts for specific guidance on searching for Bioconductor tools in Galaxy, identifying gaps, and specific recommendations for adding interoperable Bioconductor tooling in Galaxy.",
     "crumbs": [
-      "Guide to FAIR",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
+      "Guide for FAIR Practices",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
     ]
   },
   {
-    "objectID": "bioc_in_galaxy.html#searching-for-bioconductor-tools-on-galaxy",
-    "href": "bioc_in_galaxy.html#searching-for-bioconductor-tools-on-galaxy",
-    "title": "8  Bioconductor in Galaxy",
-    "section": "8.2 Searching for Bioconductor tools on Galaxy",
-    "text": "8.2 Searching for Bioconductor tools on Galaxy\nAre Bioconductor tools findable in Galaxy? How does one find Bioconductor tools on Galaxy? What are the search terms and strategies that can be used to locate Bioconductor functionality within the Galaxy tool shed?",
+    "objectID": "guides/fair/bioc_in_galaxy.html#searching-for-bioconductor-tools-on-galaxy",
+    "href": "guides/fair/bioc_in_galaxy.html#searching-for-bioconductor-tools-on-galaxy",
+    "title": "2  Bioconductor in Galaxy",
+    "section": "2.2 Searching for Bioconductor tools on Galaxy",
+    "text": "2.2 Searching for Bioconductor tools on Galaxy\nAre Bioconductor tools findable in Galaxy? How does one find Bioconductor tools on Galaxy? What are the search terms and strategies that can be used to locate Bioconductor functionality within the Galaxy tool shed?",
     "crumbs": [
-      "Guide to FAIR",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
+      "Guide for FAIR Practices",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
     ]
   },
   {
-    "objectID": "bioc_in_galaxy.html#galaxy-file-types-for-bioconductor-objects",
-    "href": "bioc_in_galaxy.html#galaxy-file-types-for-bioconductor-objects",
-    "title": "8  Bioconductor in Galaxy",
-    "section": "8.3 Galaxy file types for Bioconductor objects",
-    "text": "8.3 Galaxy file types for Bioconductor objects\nHow are R objects stored on disk in Galaxy? What are the preferred file types for interoperability with other programming languages and software ecosystems?\nFor example, this GitHub issue has been discussing insecure aspects of RData files. While those are the default file type for R objects, they are not interoperable with other programming languages and software ecosystems. Instead, the loom file format has gained popularity as a preferred file type for disk-based storage of R objects, and is interoperable with other programming languages and software ecosystems",
+    "objectID": "guides/fair/bioc_in_galaxy.html#galaxy-file-types-for-bioconductor-objects",
+    "href": "guides/fair/bioc_in_galaxy.html#galaxy-file-types-for-bioconductor-objects",
+    "title": "2  Bioconductor in Galaxy",
+    "section": "2.3 Galaxy file types for Bioconductor objects",
+    "text": "2.3 Galaxy file types for Bioconductor objects\nHow are R objects stored on disk in Galaxy? What are the preferred file types for interoperability with other programming languages and software ecosystems?\nFor example, this GitHub issue has been discussing insecure aspects of RData files. While those are the default file type for R objects, they are not interoperable with other programming languages and software ecosystems. Instead, the loom file format has gained popularity as a preferred file type for disk-based storage of R objects, and is interoperable with other programming languages and software ecosystems",
     "crumbs": [
-      "Guide to FAIR",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
+      "Guide for FAIR Practices",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
     ]
   },
   {
-    "objectID": "bioc_in_galaxy.html#resources",
-    "href": "bioc_in_galaxy.html#resources",
-    "title": "8  Bioconductor in Galaxy",
-    "section": "8.4 Resources",
-    "text": "8.4 Resources\n\nTool development and integration into Galaxy",
+    "objectID": "guides/fair/bioc_in_galaxy.html#resources",
+    "href": "guides/fair/bioc_in_galaxy.html#resources",
+    "title": "2  Bioconductor in Galaxy",
+    "section": "2.4 Resources",
+    "text": "2.4 Resources\n\nTool development and integration into Galaxy",
     "crumbs": [
-      "Guide to FAIR",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
+      "Guide for FAIR Practices",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bioconductor in Galaxy</span>"
     ]
   },
   {
-    "objectID": "bioc_in_nfcore.html",
-    "href": "bioc_in_nfcore.html",
-    "title": "9  Bioconductor in nf-core",
+    "objectID": "guides/fair/bioc_in_nfcore.html",
+    "href": "guides/fair/bioc_in_nfcore.html",
+    "title": "3  Bioconductor in nf-core",
     "section": "",
-    "text": "9.1 Overview\nThe following sections currently contains placeholder prompts for specific guidance on searching for Bioconductor tools in nf-core, identifying gaps, and specific recommendations for adding interoperable Bioconductor tooling in Galaxy.",
+    "text": "3.1 Overview\nThe following sections currently contains placeholder prompts for specific guidance on searching for Bioconductor tools in nf-core, identifying gaps, and specific recommendations for adding interoperable Bioconductor tooling in Galaxy.",
     "crumbs": [
-      "Guide to FAIR",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Bioconductor in nf-core</span>"
+      "Guide for FAIR Practices",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bioconductor in nf-core</span>"
     ]
   },
   {
-    "objectID": "bioc_in_nfcore.html#searching-for-bioconductor-tools-in-nf-core",
-    "href": "bioc_in_nfcore.html#searching-for-bioconductor-tools-in-nf-core",
-    "title": "9  Bioconductor in nf-core",
-    "section": "9.2 Searching for Bioconductor tools in nf-core",
-    "text": "9.2 Searching for Bioconductor tools in nf-core\nAre Bioconductor tools findable in nf-core? How does one find Bioconductor tools in nf-core? What are the search terms and strategies that can be used to locate Bioconductor functionality within the nf-core modules?",
+    "objectID": "guides/fair/bioc_in_nfcore.html#searching-for-bioconductor-tools-in-nf-core",
+    "href": "guides/fair/bioc_in_nfcore.html#searching-for-bioconductor-tools-in-nf-core",
+    "title": "3  Bioconductor in nf-core",
+    "section": "3.2 Searching for Bioconductor tools in nf-core",
+    "text": "3.2 Searching for Bioconductor tools in nf-core\nAre Bioconductor tools findable in nf-core? How does one find Bioconductor tools in nf-core? What are the search terms and strategies that can be used to locate Bioconductor functionality within the nf-core modules?",
     "crumbs": [
-      "Guide to FAIR",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Bioconductor in nf-core</span>"
+      "Guide for FAIR Practices",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bioconductor in nf-core</span>"
     ]
   },
   {
-    "objectID": "bioc_in_nfcore.html#resources",
-    "href": "bioc_in_nfcore.html#resources",
-    "title": "9  Bioconductor in nf-core",
-    "section": "9.3 Resources",
-    "text": "9.3 Resources\n\nCreating nf-core modules",
+    "objectID": "guides/fair/bioc_in_nfcore.html#resources",
+    "href": "guides/fair/bioc_in_nfcore.html#resources",
+    "title": "3  Bioconductor in nf-core",
+    "section": "3.3 Resources",
+    "text": "3.3 Resources\n\nCreating nf-core modules",
     "crumbs": [
-      "Guide to FAIR",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Bioconductor in nf-core</span>"
+      "Guide for FAIR Practices",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bioconductor in nf-core</span>"
     ]
   },
   {
