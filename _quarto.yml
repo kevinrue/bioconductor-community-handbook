@@ -16,25 +16,23 @@ book:
     collapse-level: 1
   chapters:
     - index.qmd
-    - part: "Guide to package development"
+    - part: "Guide for Software"
       chapters:
-        - guide_package_development.qmd
-    - part: "Guide to package maintenance"
-      chapters:
-        - guide_package_maintenance.qmd
-    - part: "Guide to package peer review"
-      chapters:
-        - guide_package_peer_review.qmd
-    - part: "Guide to communication"
+        - guide_software.qmd
+        - guides/software/package_development.qmd
+        - guides/software/package_maintenance.qmd
+        - guides/software/package_peer_review.qmd
+    - part: "Guide for Communication"
       chapters:
         - guide_communication.qmd
-        - communicating_across_communities.qmd
-    - part: "Guide to FAIR"
+        - guides/communication/communicating_with_the_community.qmd
+        - guides/communication/communicating_with_other_communities.qmd
+    - part: "Guide for FAIR Practices"
       chapters:
         - guide_fair.qmd
-        - interoperable_file_types.qmd
-        - bioc_in_galaxy.qmd
-        - bioc_in_nfcore.qmd
+        - guides/fair/interoperable_file_types.qmd
+        - guides/fair/bioc_in_galaxy.qmd
+        - guides/fair/bioc_in_nfcore.qmd
     - contributors.qmd
     - references.qmd
   appendices:

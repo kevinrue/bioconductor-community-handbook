@@ -1,0 +1,5 @@
+# Package development {.unnumbered}
+
+This section will cover practices and resources for developing Bioconductor packages.
+
+Those practices and resources are currently described in the bookdown book [Bioconductor Packages: Development, Maintenance, and Peer Review](https://contributions.bioconductor.org/index.html).

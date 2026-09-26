@@ -2,22 +2,11 @@
 
 ## Welcome
 
-Welcome to the Bioconductor Community Handbook.
+Welcome to the *Bioconductor Community Handbook*.
 
-Whether you are part of the Bioconductor community, work with a neighbouring project, or are discovering these communities for the first time, this handbook is for you.
-We hope it helps you find your way around shared practices, resources, and conversations, and supports you in contributing to open, inclusive, and collaborative bioinformatics.
-
-## What this book is
+This handbook is a collaborative effort to capture and share knowledge about the Bioconductor community, its practices, and its resources. It is intended for anyone interested in contributing to or learning from the Bioconductor community, whether you are a seasoned contributor or a newcomer.
 
 This book was initiated during a BioFAIR Collaboration Fest held at The Open University on 15-17 September 2026.
+It began as an effort to capture FAIR (Findable, Accessible, Interoperable, Reusable) practices not covered by existing Bioconductor materials, but discussions broadened its scope into a handbook bringing together key aspects of community practice in one place.
 
-The handbook began as an effort to capture FAIR (Findable, Accessible, Interoperable, Reusable) practices not covered by existing Bioconductor materials.
-Cross-community discussions broadened its scope into a handbook bringing together key aspects of community practice in one place.
-
-The structure of this handbook is inspired from [The Turing Way](https://book.the-turing-way.org/), with sections dedicated to:
-
-- [Guide to package development](guide_package_development.qmd)
-- [Guide to package maintenance](guide_package_maintenance.qmd)
-- [Guide to package peer review](guide_package_peer_review.qmd)
-- [Guide to communication](guide_communication.qmd)
-- [Guide to FAIR practices](guide_fair.qmd)
+The structure of this handbook is inspired from [The Turing Way](https://book.the-turing-way.org/), referring to it for more general guidance on open source software development, data science, and reproducible research. It is intended to unify this combined knowledge under one common roof while signposting to more specialised guidance maintained by Bioconductor and other communities.

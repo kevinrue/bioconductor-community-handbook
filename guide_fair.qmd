@@ -1,6 +1,4 @@
-# Guide to FAIR
-
-## Overview
+# Guide for FAIR Practices {.unnumbered}
 
 As part of the Bioconductor community, we develop and maintain open-source software, data, and training resources.
 By applying the [FAIR principles](https://www.go-fair.org/fair-principles/) -- Findable, Accessible, Interoperable, Reusable -- this guide will cover practices and resources supporting users and developers in making those resources easier to discover, access, integrate, and reuse within and beyond the [Bioconductor](https://www.bioconductor.org/) ecosystem.

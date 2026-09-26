@@ -1,0 +1,5 @@
+# Guide for Software {.unnumbered}
+
+This guide will cover practices and resources for the design, maintenance, and peer review of Bioconductor software.
+
+Those practices and resources are currently described in the bookdown book [Bioconductor Packages: Development, Maintenance, and Peer Review](https://contributions.bioconductor.org/index.html).

@@ -1,0 +1,5 @@
+# Package peer review {.unnumbered}
+
+This section will cover practices and resources for the peer review of Bioconductor packages.
+
+Those practices and resources are currently described in the bookdown book [Bioconductor Packages: Development, Maintenance, and Peer Review](https://contributions.bioconductor.org/reviewer-resources-overview.html).
