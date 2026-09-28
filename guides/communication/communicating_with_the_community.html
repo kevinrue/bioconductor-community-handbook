@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,13 +12,10 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -45,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f65414af972ecf7b3540f43a4f603fe7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -261,9 +258,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#the-bioconductor-support-site" id="toc-the-bioconductor-support-site" class="nav-link active" data-scroll-target="#the-bioconductor-support-site">The Bioconductor Support Site</a></li>
-  <li><a href="#the-bioc-devel-mailing-list" id="toc-the-bioc-devel-mailing-list" class="nav-link" data-scroll-target="#the-bioc-devel-mailing-list">The bioc-devel mailing list</a></li>
-  <li><a href="#the-bioconductor-chat" id="toc-the-bioconductor-chat" class="nav-link" data-scroll-target="#the-bioconductor-chat">The Bioconductor Chat</a></li>
+  <li><a href="#the-bioc-devel-mailing-list" id="toc-the-bioc-devel-mailing-list" class="nav-link active" data-scroll-target="#the-bioc-devel-mailing-list">The bioc-devel mailing list</a></li>
+  <li><a href="#the-bioconductor-support-site" id="toc-the-bioconductor-support-site" class="nav-link" data-scroll-target="#the-bioconductor-support-site">The Bioconductor support site</a></li>
+  <li><a href="#the-bioconductor-zulip-chat" id="toc-the-bioconductor-zulip-chat" class="nav-link" data-scroll-target="#the-bioconductor-zulip-chat">The Bioconductor Zulip chat</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/kevinrue/bioconductor-community-handbook/edit/main/guides/communication/communicating_with_the_community.qmd" target="_blank" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/kevinrue/bioconductor-community-handbook/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/kevinrue/bioconductor-community-handbook/blob/main/guides/communication/communicating_with_the_community.qmd" target="_blank" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -290,19 +287,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>This section will introduce communication practices, resources, and pathways for coordinating work and building effective relationships with other community members.</p>
-<section id="the-bioconductor-support-site" class="level2">
-<h2 class="anchored" data-anchor-id="the-bioconductor-support-site">The Bioconductor Support Site</h2>
-<p>The Bioconductor support site is the best place for questions about using Bioconductor packages because the answers are archived, searchable, and can help future users with the same issue.</p>
-<p>The site is hosted at <a href="https://support.bioconductor.org" class="uri">https://support.bioconductor.org</a>.</p>
-</section>
 <section id="the-bioc-devel-mailing-list" class="level2">
 <h2 class="anchored" data-anchor-id="the-bioc-devel-mailing-list">The bioc-devel mailing list</h2>
-<p>The bioc-devel mailing list is for package development and Bioconductor infrastructure questions, particularly where input from developers or the core team may be needed.</p>
+<p>The bioc-devel mailing list was created in <a href="https://github.com/r-mailing-lists/data">March 2004</a> for package development and Bioconductor infrastructure questions, particularly where input from developers or the core team may be needed.</p>
 <p>New users can subscribe to the mailing list at <a href="https://stat.ethz.ch/mailman/listinfo/bioc-devel" class="uri">https://stat.ethz.ch/mailman/listinfo/bioc-devel</a></p>
 </section>
-<section id="the-bioconductor-chat" class="level2">
-<h2 class="anchored" data-anchor-id="the-bioconductor-chat">The Bioconductor Chat</h2>
-<p>Bioconductor uses the open source team chat <a href="https://zulip.com/">Zulip</a>. The platform is freely accessible. New users can sign up for at <a href="https://chat.bioconductor.org/" class="uri">https://chat.bioconductor.org/</a>.</p>
+<section id="the-bioconductor-support-site" class="level2">
+<h2 class="anchored" data-anchor-id="the-bioconductor-support-site">The Bioconductor support site</h2>
+<p>The Bioconductor support site was inaugurated in <a href="https://support.bioconductor.org/p/61060/">August 2014</a> as the best place for questions about using Bioconductor packages because the answers are archived, searchable, and can help future users with the same issue.</p>
+<p>The site is hosted at <a href="https://support.bioconductor.org" class="uri">https://support.bioconductor.org</a>.</p>
+</section>
+<section id="the-bioconductor-zulip-chat" class="level2">
+<h2 class="anchored" data-anchor-id="the-bioconductor-zulip-chat">The Bioconductor Zulip chat</h2>
+<p>Bioconductor uses the freely accessible, open source team chat <a href="https://zulip.com/">Zulip</a> app.</p>
+<p>New users can sign up for at <a href="https://chat.bioconductor.org/" class="uri">https://chat.bioconductor.org/</a>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -313,7 +311,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The community previously used Slack for chat, but the transition to Zulip was made to ensure long-term access to discussions and better reflect the community’s open-source values. You can read more about the move from Slack to Zulip - which took place on Monday 2 June 2025 - in the Bioconductor blog post <a href="https://blog.bioconductor.org/posts/2025-05-29-slack-to-zulip/">Bioconductor is Moving from Slack to Zulip for Community Chat</a>.</p>
+<p>The community previously used <a href="https://slack.com">Slack</a> for chat, but the transition to Zulip was made to ensure long-term access to discussions and better reflect the community’s open-source values. You can read more about the move from Slack to Zulip - which took place on Monday 2 June 2025 - in the Bioconductor blog post <a href="https://blog.bioconductor.org/posts/2025-05-29-slack-to-zulip/">Bioconductor is Moving from Slack to Zulip for Community Chat</a>.</p>
 </div>
 </div>
 <p>The Bioconductor Zulip chat is intended for community discussion, brainstorming, coordination, introductions, announcements, mentoring, working group conversations, event planning, and questions that don’t naturally fit the support site or bioc-devel.</p>

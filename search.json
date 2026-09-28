@@ -79,29 +79,29 @@
     "href": "guides/communication/communicating_with_the_community.html",
     "title": "Communicating with the community",
     "section": "",
-    "text": "The Bioconductor Support Site\nThis section will introduce communication practices, resources, and pathways for coordinating work and building effective relationships with other community members.\nThe Bioconductor support site is the best place for questions about using Bioconductor packages because the answers are archived, searchable, and can help future users with the same issue.\nThe site is hosted at https://support.bioconductor.org.",
+    "text": "The bioc-devel mailing list\nThis section will introduce communication practices, resources, and pathways for coordinating work and building effective relationships with other community members.\nThe bioc-devel mailing list was created in March 2004 for package development and Bioconductor infrastructure questions, particularly where input from developers or the core team may be needed.\nNew users can subscribe to the mailing list at https://stat.ethz.ch/mailman/listinfo/bioc-devel",
     "crumbs": [
       "Guide for Communication",
       "Communicating with the community"
     ]
   },
   {
-    "objectID": "guides/communication/communicating_with_the_community.html#the-bioc-devel-mailing-list",
-    "href": "guides/communication/communicating_with_the_community.html#the-bioc-devel-mailing-list",
+    "objectID": "guides/communication/communicating_with_the_community.html#the-bioconductor-support-site",
+    "href": "guides/communication/communicating_with_the_community.html#the-bioconductor-support-site",
     "title": "Communicating with the community",
-    "section": "The bioc-devel mailing list",
-    "text": "The bioc-devel mailing list\nThe bioc-devel mailing list is for package development and Bioconductor infrastructure questions, particularly where input from developers or the core team may be needed.\nNew users can subscribe to the mailing list at https://stat.ethz.ch/mailman/listinfo/bioc-devel",
+    "section": "The Bioconductor support site",
+    "text": "The Bioconductor support site\nThe Bioconductor support site was inaugurated in August 2014 as the best place for questions about using Bioconductor packages because the answers are archived, searchable, and can help future users with the same issue.\nThe site is hosted at https://support.bioconductor.org.",
     "crumbs": [
       "Guide for Communication",
       "Communicating with the community"
     ]
   },
   {
-    "objectID": "guides/communication/communicating_with_the_community.html#the-bioconductor-chat",
-    "href": "guides/communication/communicating_with_the_community.html#the-bioconductor-chat",
+    "objectID": "guides/communication/communicating_with_the_community.html#the-bioconductor-zulip-chat",
+    "href": "guides/communication/communicating_with_the_community.html#the-bioconductor-zulip-chat",
     "title": "Communicating with the community",
-    "section": "The Bioconductor Chat",
-    "text": "The Bioconductor Chat\nBioconductor uses the open source team chat Zulip. The platform is freely accessible. New users can sign up for at https://chat.bioconductor.org/.\n\n\n\n\n\n\nNote\n\n\n\nThe community previously used Slack for chat, but the transition to Zulip was made to ensure long-term access to discussions and better reflect the community’s open-source values. You can read more about the move from Slack to Zulip - which took place on Monday 2 June 2025 - in the Bioconductor blog post Bioconductor is Moving from Slack to Zulip for Community Chat.\n\n\nThe Bioconductor Zulip chat is intended for community discussion, brainstorming, coordination, introductions, announcements, mentoring, working group conversations, event planning, and questions that don’t naturally fit the support site or bioc-devel.",
+    "section": "The Bioconductor Zulip chat",
+    "text": "The Bioconductor Zulip chat\nBioconductor uses the freely accessible, open source team chat Zulip app.\nNew users can sign up for at https://chat.bioconductor.org/.\n\n\n\n\n\n\nNote\n\n\n\nThe community previously used Slack for chat, but the transition to Zulip was made to ensure long-term access to discussions and better reflect the community’s open-source values. You can read more about the move from Slack to Zulip - which took place on Monday 2 June 2025 - in the Bioconductor blog post Bioconductor is Moving from Slack to Zulip for Community Chat.\n\n\nThe Bioconductor Zulip chat is intended for community discussion, brainstorming, coordination, introductions, announcements, mentoring, working group conversations, event planning, and questions that don’t naturally fit the support site or bioc-devel.",
     "crumbs": [
       "Guide for Communication",
       "Communicating with the community"
