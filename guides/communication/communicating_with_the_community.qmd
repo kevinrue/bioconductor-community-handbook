@@ -15,3 +15,10 @@ You can read more about the move from Slack to Zulip - which took place on Monda
 
 The Bioconductor Zulip chat is intended for real-time, informal discussion and collaboration within the community, including quick questions, coordination, and exchanging ideas.
 For technical questions that would benefit from a searchable, persistent answer, the *Bioconductor Support Site* remains the preferred venue (see below).
+
+## The Bioconductor Support Site
+
+The Bioconductor Support Site is a forum for asking questions and sharing knowledge about Bioconductor packages and workflows.
+The site is hosted at <https://support.bioconductor.org>.
+
+Questions and answers are publicly searchable and persistent - without the need to create an account or log in - making it a valuable resource for the community.
