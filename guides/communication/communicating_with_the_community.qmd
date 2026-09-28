@@ -1,3 +1,17 @@
 # Communicating with the community {.unnumbered}
 
 This section will introduce communication practices, resources, and pathways for coordinating work and building effective relationships with other community members.
+
+## The Bioconductor Chat
+
+Bioconductor uses the open source team chat [Zulip](https://zulip.com/).
+The platform is freely accessible.
+New users can sign up for at <https://chat.bioconductor.org/>.
+
+::: {.callout-note}
+The community previously used Slack for chat, but the transition to Zulip was made to ensure long-term access to discussions and better reflect the community's open-source values.
+You can read more about the move from Slack to Zulip - which took place on Monday 2 June 2025 - in the Bioconductor blog post [Bioconductor is Moving from Slack to Zulip for Community Chat](https://blog.bioconductor.org/posts/2025-05-29-slack-to-zulip/).
+:::
+
+The Bioconductor Zulip chat is intended for real-time, informal discussion and collaboration within the community, including quick questions, coordination, and exchanging ideas.
+For technical questions that would benefit from a searchable, persistent answer, the *Bioconductor Support Site* remains the preferred venue (see below).
