@@ -1,4 +1,4 @@
-# Overview {.unnumbered}
+# Guide for Software {.unnumbered}
 
 This guide will cover practices and resources for the design, maintenance, and peer review of Bioconductor software.
 

@@ -1,4 +1,4 @@
-# Bioconductor in Galaxy
+# Bioconductor in Galaxy {.unnumbered}
 
 ## Overview
 

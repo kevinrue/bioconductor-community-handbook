@@ -1,4 +1,4 @@
-# Bioconductor in nf-core
+# Bioconductor in nf-core {.unnumbered}
 
 ## Overview
 

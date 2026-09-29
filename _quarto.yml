@@ -17,26 +17,22 @@ book:
     collapse-level: 1
   chapters:
     - index.qmd
-    - part: "Guide for Software"
+    - part: guide_software.qmd
       chapters:
-        - guide_software.qmd
         - guides/software/package_development.qmd
         - guides/software/package_maintenance.qmd
         - guides/software/package_peer_review.qmd
-    - part: "Guide for Communication"
+    - part: guide_communication.qmd
       chapters:
-        - guide_communication.qmd
         - guides/communication/communicating_with_the_community.qmd
         - guides/communication/communicating_with_other_communities.qmd
-    - part: "Guide for FAIR Practices"
+    - part: guide_fair.qmd
       chapters:
-        - guide_fair.qmd
         - guides/fair/interoperable_file_types.qmd
         - guides/fair/bioc_in_galaxy.qmd
         - guides/fair/bioc_in_nfcore.qmd
-    - part: "Code of Conduct"
+    - part: code_of_conduct.md
       chapters:
-        - code_of_conduct.md
         - code_of_conduct/en-US.qmd
     - contributors.qmd
     - references.qmd

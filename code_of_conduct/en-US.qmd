@@ -1,4 +1,4 @@
-# U.S. English {.unnumbered}
+# Code of Conduct (U.S. English) {.unnumbered}
 
 ::: {.callout-note}
 ### Reference version
