@@ -269,68 +269,80 @@
     ]
   },
   {
-    "objectID": "contributors.html",
-    "href": "contributors.html",
+    "objectID": "appendices/contributors.html",
+    "href": "appendices/contributors.html",
     "title": "Contributors",
     "section": "",
-    "text": "The table below lists the names (alphabetical order: last name, first name), affiliations, and ORCID identifiers of each contributor.\n\n\n\nName\nAffiliation\nORCID\n\n\n\n\nKevin Rue\nOxford University\n0000-0003-3899-3872",
+    "text": "K\nIndividual contributors are welcome to provide their details below (alphabetical order: first name, last name).\nKevin Rue-Albrecht",
     "crumbs": [
+      "Appendices",
       "Contributors"
     ]
   },
   {
-    "objectID": "definitions.html",
-    "href": "definitions.html",
-    "title": "Appendix A — Definitions",
+    "objectID": "appendices/contributors.html#k",
+    "href": "appendices/contributors.html#k",
+    "title": "Contributors",
     "section": "",
-    "text": "A.1 Bioconductor\nShared definitions and language are essential for effective communication and collaboration across communities, and for ensuring that the FAIR principles are applied consistently.\nThe following definitions aim to redefine key terms in a way that is accessible to a wide audience, including those who may not be familiar with the specific communities or technologies involved.\nBioconductor is …",
+    "text": "GitHub: kevinrue\nORCID: 0000-0003-3899-3872",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Definitions</span>"
+      "Contributors"
     ]
   },
   {
-    "objectID": "definitions.html#fair",
-    "href": "definitions.html#fair",
-    "title": "Appendix A — Definitions",
-    "section": "A.2 FAIR",
-    "text": "A.2 FAIR\nFAIR is …",
+    "objectID": "appendices/definitions.html",
+    "href": "appendices/definitions.html",
+    "title": "Definitions",
+    "section": "",
+    "text": "Bioconductor\nShared definitions and language are essential for effective communication and collaboration across communities, and for ensuring that the FAIR principles are applied consistently.\nThe following definitions aim to redefine key terms in a way that is accessible to a wide audience, including those who may not be familiar with the specific communities or technologies involved.\nBioconductor is …",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Definitions</span>"
+      "Definitions"
     ]
   },
   {
-    "objectID": "definitions.html#galaxy",
-    "href": "definitions.html#galaxy",
-    "title": "Appendix A — Definitions",
-    "section": "A.3 Galaxy",
-    "text": "A.3 Galaxy\nThe Galaxy project is …",
+    "objectID": "appendices/definitions.html#fair",
+    "href": "appendices/definitions.html#fair",
+    "title": "Definitions",
+    "section": "FAIR",
+    "text": "FAIR\nFAIR is …",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Definitions</span>"
+      "Definitions"
     ]
   },
   {
-    "objectID": "definitions.html#nextflow",
-    "href": "definitions.html#nextflow",
-    "title": "Appendix A — Definitions",
-    "section": "A.4 Nextflow",
-    "text": "A.4 Nextflow\nNextflow is …",
+    "objectID": "appendices/definitions.html#galaxy",
+    "href": "appendices/definitions.html#galaxy",
+    "title": "Definitions",
+    "section": "Galaxy",
+    "text": "Galaxy\nThe Galaxy project is …",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Definitions</span>"
+      "Definitions"
     ]
   },
   {
-    "objectID": "definitions.html#nf-core",
-    "href": "definitions.html#nf-core",
-    "title": "Appendix A — Definitions",
-    "section": "A.5 nf-core",
-    "text": "A.5 nf-core\nnf-core is …",
+    "objectID": "appendices/definitions.html#nextflow",
+    "href": "appendices/definitions.html#nextflow",
+    "title": "Definitions",
+    "section": "Nextflow",
+    "text": "Nextflow\nNextflow is …",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Definitions</span>"
+      "Definitions"
+    ]
+  },
+  {
+    "objectID": "appendices/definitions.html#nf-core",
+    "href": "appendices/definitions.html#nf-core",
+    "title": "Definitions",
+    "section": "nf-core",
+    "text": "nf-core\nnf-core is …",
+    "crumbs": [
+      "Appendices",
+      "Definitions"
     ]
   }
 ]
