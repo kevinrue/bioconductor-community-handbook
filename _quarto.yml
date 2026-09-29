@@ -34,6 +34,10 @@ book:
         - guides/fair/interoperable_file_types.qmd
         - guides/fair/bioc_in_galaxy.qmd
         - guides/fair/bioc_in_nfcore.qmd
+    - part: "Code of Conduct"
+      chapters:
+        - code_of_conduct.md
+        - code_of_conduct/en-US.qmd
     - contributors.qmd
     - references.qmd
   appendices:

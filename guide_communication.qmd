@@ -1,4 +1,4 @@
-# Guide for Communication {.unnumbered}
+# Overview {.unnumbered}
 
 This guide will provide practical advice for communicating within the Bioconductor community and with other communities.
 
