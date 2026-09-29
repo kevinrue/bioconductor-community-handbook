@@ -88,7 +88,7 @@
     "href": "guides/communication/communicating_with_the_community.html#the-bioconductor-support-site",
     "title": "Communicating with the community",
     "section": "The Bioconductor support site",
-    "text": "The Bioconductor support site\nThe Bioconductor support site was inaugurated in August 2014 as the best place for questions about using Bioconductor packages because the answers are archived, searchable, and can help future users with the same issue.\nThe site is hosted at https://support.bioconductor.org.",
+    "text": "The Bioconductor support site\nThe Bioconductor support site was inaugurated in August 2014 as the best place for questions about using Bioconductor packages because the answers are archived, searchable, and can help future users with the same issue.\nThe support site is available at https://support.bioconductor.org, where new users can freely create an account to post questions and answers.",
     "crumbs": [
       "Guide for Communication",
       "Communicating with the community"
