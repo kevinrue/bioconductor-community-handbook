@@ -1,4 +1,4 @@
-# Definitions
+# Definitions {.unnumbered}
 
 Shared definitions and language are essential for effective communication and collaboration across communities, and for ensuring that the FAIR principles are applied consistently.
 

@@ -34,10 +34,10 @@ book:
     - part: code_of_conduct.md
       chapters:
         - code_of_conduct/en-US.qmd
-    - contributors.qmd
     - references.qmd
   appendices:
-    - definitions.qmd
+    - appendices/contributors.qmd
+    - appendices/definitions.qmd
 
 bibliography: references.bib
 
