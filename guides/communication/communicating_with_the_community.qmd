@@ -12,7 +12,7 @@ New users can subscribe to the mailing list at <https://stat.ethz.ch/mailman/lis
 
 The Bioconductor support site was inaugurated in [August 2014](https://support.bioconductor.org/p/61060/) as the best place for questions about using Bioconductor packages because the answers are archived, searchable, and can help future users with the same issue.
 
-The site is hosted at <https://support.bioconductor.org>.
+The support site is available at <https://support.bioconductor.org>, where new users can freely create an account to post questions and answers.
 
 ## The Bioconductor Zulip chat
 
