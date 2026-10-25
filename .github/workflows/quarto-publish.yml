@@ -7,10 +7,8 @@ on:
 
 name: Render and Publish
 
-# you need these permissions to publish to GitHub pages
-# permissions: 
-#     contents: write
-#     pages: write
+permissions:
+  contents: write
 
 jobs:
   build-deploy:
@@ -20,6 +18,23 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
         
+      - name: Initialize GitHub Pages branch
+        run: |
+          if ! git ls-remote --exit-code --heads origin gh-pages >/dev/null; then
+            current_commit=$(git rev-parse HEAD)
+            git checkout --orphan gh-pages
+            git rm -rf .
+            touch .nojekyll
+            git add .nojekyll
+            git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "Initialize GitHub Pages branch"
+            if ! git push origin gh-pages; then
+              git ls-remote --exit-code --heads origin gh-pages >/dev/null
+            fi
+            git checkout "$current_commit"
+          fi
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         env:
